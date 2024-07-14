@@ -1,0 +1,44 @@
+[
+  {
+    "value": "Kutaisi",
+    "label": "Kutaisi",
+    "children": [
+      {
+        "value": "Kutaisi City",
+        "label": "Kutaisi City"
+      },
+      {
+        "value": "Kutaisi Airport",
+        "label": "Kutaisi Airport"
+      }
+    ]
+  },
+  {
+    "value": "Tbilisi",
+    "label": "Tbilisi",
+    "children": [
+      {
+        "value": "Tbilisi City",
+        "label": "Tbilisi City"
+      },
+      {
+        "value": "Tbilisi Airport",
+        "label": "Tbilisi Airport"
+      }
+    ]
+  },
+  {
+    "value": "Batumi",
+    "label": "Batumi",
+    "children": [
+      {
+        "value": "Batumi City",
+        "label": "Batumi City"
+      },
+      {
+        "value": "Batumi Airport",
+        "label": "Batumi Airport"
+      }
+    ]
+  }
+]
