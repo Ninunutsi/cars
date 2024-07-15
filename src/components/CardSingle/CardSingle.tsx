@@ -7,6 +7,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import Button from "../Button";
 import styled from "styled-components";
 import LoadingCard from "../LoadingCard";
+import { useRouter } from "next/router";
 
 const StyledImg = styled.img`
   width: 100%;
@@ -38,9 +39,9 @@ const CardSingle: React.FC<singleCarI> = ({
         flex: {
           xs: "1 1 100%", // 100% width on extra-small screens
           sm: "1 1 48%", // 48% width on small screens
-          md: "1 1 32%", // 32% width on medium screens
-          lg: "1 1 20%", // 24% width on large screens
-          xl: "1 1 21%", // 21% width on extra-large screens
+          md: "1 1 28%", // 32% width on medium screens
+          lg: "1 1 18%", // 24% width on large screens
+          xl: "1 1 15%", // 21% width on extra-large screens
         },
       }}
     >

@@ -13,10 +13,11 @@ const NextLink = forwardRef<
   return (
     <MuiLink
       component={Link}
-      href={`${lang ? `/${lang}` : ""}${href}`}
+      href={`${href}`}
       underline="none"
       {...restProps}
       ref={ref}
+      sx={{ display: "inline" }}
     />
   );
 });

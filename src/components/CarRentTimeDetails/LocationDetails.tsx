@@ -126,7 +126,7 @@ const LocationDetails: React.FC = () => {
         <LocationDetailsForm title="Pick - Up" name="pickUp" />
         <LocationDetailsForm title="Drop - Off" name="dropOff" />
       </Box>
-      <Box sx={{ display: "flex", justifyContent: "center" }}>
+      <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
         <Form.Item>
           <ButtonComp value={"Find a vehicle"} type={"submit"} />
         </Form.Item>
