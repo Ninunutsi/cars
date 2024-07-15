@@ -1,6 +1,5 @@
-import { Box, TextField, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
-import Textarea from "@mui/joy/Textarea";
 import QuestionForm from "../QuestionForm";
 import SectionsHeader from "../SectionsHeader";
 

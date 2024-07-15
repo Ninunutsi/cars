@@ -7,7 +7,6 @@ import PeopleIcon from "@mui/icons-material/People";
 import Button from "../Button";
 import styled from "styled-components";
 import LoadingCard from "../LoadingCard";
-import { useRouter } from "next/router";
 
 const StyledImg = styled.img`
   width: 100%;
@@ -23,7 +22,6 @@ const CardSingle: React.FC<singleCarI> = ({
   model,
   tank_size,
   thumbnail_url,
-  transmission,
   seats,
   price,
   loading,

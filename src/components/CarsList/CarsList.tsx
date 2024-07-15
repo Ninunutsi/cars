@@ -122,6 +122,7 @@ const CarsList = () => {
             thumbnail_url,
           }) => (
             <CardSingle
+              key={model}
               body_type={body_type}
               brand={brand}
               model={model}
